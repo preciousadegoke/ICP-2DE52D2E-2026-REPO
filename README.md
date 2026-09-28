@@ -21,7 +21,7 @@ Design and implement a multi-stage CI/CD workflow covering automated testing, ap
 
 Use Terraform to define and provision reproducible infrastructure while applying concepts such as state management, variables, outputs, modularity, and secure configuration.
 
-## Repository Structure
+## Planned Repository Structure
 
 ```text
 ICP-2DE52D2E-2026-REPO/
@@ -33,3 +33,4 @@ ICP-2DE52D2E-2026-REPO/
 ├── Week5/
 ├── Week6/
 └── docs/
+```
