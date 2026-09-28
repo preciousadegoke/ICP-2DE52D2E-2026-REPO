@@ -84,7 +84,7 @@ Detailed setup and verification information is available in [`environment-setup.
 - [x] Project Selection Document
 - [x] Development Environment Setup
 - [x] Tool verification
-- [ ] Repository published to GitHub
+- [x] Repository published to GitHub
 
 ## Challenges and Learning
 
