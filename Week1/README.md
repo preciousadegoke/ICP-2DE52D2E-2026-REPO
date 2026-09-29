@@ -97,6 +97,16 @@ Troubleshooting these issues provided practical experience distinguishing betwee
 - Network connectivity failures
 - Application/runtime failures
 
+## Evidence
+
+Supporting evidence for the Week 1 activities and environment verification is available in the [`evidence`](./evidence/) directory.
+
+The evidence includes:
+
+- Published GitHub internship repository
+- Successful Docker image pull and container execution
+- Terraform installation and version verification
+
 ## Outcome
 
 Week 1 established a functional development environment and the foundational Linux and Git skills required for the implementation stages of the internship.
