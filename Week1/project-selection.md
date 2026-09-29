@@ -13,7 +13,7 @@ For this Internship, I selected the following projects:
 2. Project 7 - Infrastructure as Code
 These projects were selected because they represent two important areas of modern DevOps: automated software delivery and automated infrastructure provisioning
 ---
-##2. Project 1: CI/CD Pipeline
+## 2. Project 1: CI/CD Pipeline
 ### Problem Statement
 Modern software projects undergo frequent changes. Manually testing, building, and deploying every change is repetitive, time-consuming, and susceptible to human error.
 A Continuous Integration and Continuous Deployment (CI/CD) pipeline automates these processes and provides a repeatable software delivery workflow.
