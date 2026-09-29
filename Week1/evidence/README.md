@@ -23,7 +23,7 @@ The repository is used to maintain:
 
 ### Evidence
 
-![Week 1 GitHub Repository](./screenshots/week1-github-repository.jpg)
+![Week 1 GitHub Repository](./screenshots/week1-github-repository.JPG)
 
 ### Verification
 
@@ -52,7 +52,7 @@ docker run --rm hello-world
 
 ### Evidence
 
-![Docker Verification](./screenshots/week1-docker-verification.jpg)
+![Docker Verification](./screenshots/week1-docker-verification.JPG)
 
 ### Result
 
@@ -93,7 +93,7 @@ terraform --version
 
 ### Evidence
 
-![Terraform Verification](./screenshots/week1-terraform-verification.jpg)
+![Terraform Verification](./screenshots/week1-terraform-verification.JPG)
 
 ### Result
 
