@@ -21,7 +21,7 @@ permissions:
 jobs:
   test:
     name: Run Automated Tests
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
 
     defaults:
       run:
@@ -29,10 +29,10 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: "3.12"
           cache: "pip"
@@ -48,7 +48,7 @@ jobs:
 
   docker:
     name: Build and Verify Docker Image
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     needs: test
 
     defaults:
@@ -57,7 +57,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Build Docker image
         run: docker build -t icp-cicd-app:${{ github.sha }} .
