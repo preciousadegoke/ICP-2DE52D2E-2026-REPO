@@ -13,9 +13,15 @@ This repository documents my practical work, projects, experiments, and learning
 
 The internship requires the completion of at least two DevOps projects. I selected:
 
-### 1. CI/CD Pipeline
+### 1. CI/CD Pipeline — Completed
 
-Design and implement a multi-stage CI/CD workflow covering automated testing, application builds, containerization, and deployment automation.
+Implemented a multi-stage CI/CD workflow covering automated testing, Docker containerization, runtime health verification, regression detection, and Continuous Delivery to GitHub Container Registry (GHCR).
+
+The completed pipeline validates application changes through GitHub Actions and publishes verified, traceable Docker images after successful pushes to `main`.
+
+**Project:** [Week 2 CI/CD Pipeline](./Week2/cicd-pipeline/README.md)
+
+**Evidence:** [CI/CD Implementation Evidence](./Week2/cicd-pipeline/evidence/README.md)
 
 ### 2. Infrastructure as Code
 
